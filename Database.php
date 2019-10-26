@@ -4,11 +4,13 @@ Author: Brad Hill
 
 TODO: Finish CRUD Functions with Prepared Statements.
 Make the process send and recieve JSON. Seperate Front-end from back end.
+Move Database creds to ignored config file.
 
 */
 require_once "Issue.php";
 class Database
 {
+    //Local Database Credentials. DEV ONLY.
     private $servername = "localhost";
     private $username = "crurtle";
     private $password = "crurtleP0wer!";
