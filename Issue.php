@@ -1,4 +1,12 @@
 <?php
+/*
+Author: Brad Hill
+
+Not entirely sure this class is needed
+as PHP loves to let me create objects
+with whatever members I want...
+
+*/
 class Issue{
     public $title;
     public $description;
