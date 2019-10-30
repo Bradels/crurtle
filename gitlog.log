@@ -1,0 +1,23 @@
+commit 510b08ad535d6424e0d9314b7aadea5f919f8f3f
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Wed Oct 30 16:41:55 2019 +1100
+
+    Completed basic CRUD
+
+commit e30f48450a8bad3478c24b483ae8d4fb5cf8d149
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Sun Oct 27 09:01:36 2019 +1100
+
+    TODO: Make creds in ignored config file.
+
+commit 18e9a361bb182323eeca2f310de3d2aab431518d
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Sat Oct 26 22:38:55 2019 +1100
+
+    Initial Create / Read functions. TODO: Make the rest of the CRUD; Update and Delete
+
+commit 5d5b91adc069fed0c3d2b83f911f97243856e9da
+Author: Brad Hill <38997191+Bradels@users.noreply.github.com>
+Date:   Sat Oct 26 14:46:42 2019 +1100
+
+    Initial commit
