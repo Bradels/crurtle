@@ -21,7 +21,7 @@ $db = new Database();
     <a href="index.php"><h3>Create new ticket</h3></a>
     <?php
     foreach ($db->get_issues() as $issue) { 
-        echo "<h3>".$issue['title']."<h3>";
+        echo "<h3> Ticket #".$issue['id']." ".$issue['title']."<h3>";
         echo"
         <form action='index.php' method='GET'>
         <input type='hidden' name='id' value='".$issue['id']."'>

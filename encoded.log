@@ -1,0 +1,47 @@
+commit 5888967caedcb2ada7a6209038b109327f61f898
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Sun Nov 10 11:41:57 2019 +1100
+
+    Identified the issue of not being able to regex the file is with the file, the git log.
+
+commit a63681b36b24e54fc30ade196490c8fd0f7dcf55
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Sun Nov 10 09:54:47 2019 +1100
+
+    Added a basic React project for the 'front end'
+
+commit a174d7eac250e2fe924b0109cfaa09f761a449d8
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Sun Nov 3 16:40:04 2019 +1100
+
+    Initial commit for the rest process
+
+commit 51a813954ad8f0028dec95bc154e0b49a48111be
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Wed Oct 30 17:17:27 2019 +1100
+
+    This should close !c#10
+
+commit 510b08ad535d6424e0d9314b7aadea5f919f8f3f
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Wed Oct 30 16:41:55 2019 +1100
+
+    Completed basic CRUD
+
+commit e30f48450a8bad3478c24b483ae8d4fb5cf8d149
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Sun Oct 27 09:01:36 2019 +1100
+
+    TODO: Make creds in ignored config file.
+
+commit 18e9a361bb182323eeca2f310de3d2aab431518d
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Sat Oct 26 22:38:55 2019 +1100
+
+    Initial Create / Read functions. TODO: Make the rest of the CRUD; Update and Delete
+
+commit 5d5b91adc069fed0c3d2b83f911f97243856e9da
+Author: Brad Hill <38997191+Bradels@users.noreply.github.com>
+Date:   Sat Oct 26 14:46:42 2019 +1100
+
+    Initial commit
