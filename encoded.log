@@ -1,3 +1,9 @@
+commit 889d930209948637d479388c9fae4b74fe8d0dc8
+Author: Brad Hill <brad-hill@hotmail.com.au>
+Date:   Sun Nov 10 12:22:18 2019 +1100
+
+    This should now close ticket 12 !c#12
+
 commit 5888967caedcb2ada7a6209038b109327f61f898
 Author: Brad Hill <brad-hill@hotmail.com.au>
 Date:   Sun Nov 10 11:41:57 2019 +1100
