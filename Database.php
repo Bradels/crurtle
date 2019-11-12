@@ -9,17 +9,25 @@ Move Database creds to ignored config file.
 
 */
 require_once "Issue.php";
+require_once "configuration.php";
 class Database
 {
     //Local Database Credentials. DEV ONLY.
-    private $servername = "localhost";
-    private $username = "crurtle";
-    private $password = "crurtleP0wer!";
-    private $dbname = "crurtle01";
+    // private $servername = "localhost";
+    // private $username = "crurtle";
+    // private $password = "crurtleP0wer!";
+    // private $dbname = "crurtle01";
     private $conn;
     function __construct()
     {
-        $this->conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
+        $this->config_class = new configuration();
+        $this->config = $this->config_class->get_config(); 
+        //$this->conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
+        $this->conn = new mysqli(
+            $this->config["database_address"],
+            $this->config["username"],
+            $this->config["password"],
+            $this->config["database"]);
     }
 
     function __destruct()
